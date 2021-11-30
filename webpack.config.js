@@ -28,7 +28,7 @@ module.exports = {
       chunks: ['main'],
     }),
     new ModuleFederationPlugin({
-      name: 'header',
+      name: 'mf_header',
       filename: 'remoteEntry.js',
       exposes: {
         './Header': './src/components/Header',
